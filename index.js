@@ -2,7 +2,7 @@ import {renderApp, addMovieToList, clearSelection} from "./dom_builder.js";
 import {ENTER, MOVIE_LIST_SELECTED, MOVIES_RESULT, NO_DATA_ERROR, SELECTED_HEADER} from "./utils.js";
 
 let searchLast = '';
-const API = 'http://www.omdbapi.com/?apikey=18b8609f&s=';
+const API = 'https://www.omdbapi.com/?apikey=18b8609f&s=';
 
 const debounceTime = (() => {
     let timer = null;
