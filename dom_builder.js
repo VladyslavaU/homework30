@@ -94,7 +94,8 @@ export function movieExistsInSelection(title) {
 }
 
 export function clearSelection() {
-    document.querySelector(MOVIE_LIST) && (document.querySelector(MOVIE_LIST).innerHTML = '')
+    console.log(document.querySelector(MOVIE_LIST))
+    document.querySelector(`.${MOVIE_LIST}`) && (document.querySelector(`.${MOVIE_LIST}`).innerHTML = '')
 }
 
 export const renderApp = () => {
